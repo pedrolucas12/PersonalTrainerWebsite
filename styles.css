@@ -3,6 +3,7 @@
     margin : 0;
     padding : 0;
     font-family: 'Kumbh Sans', sans-serif;
+
 }
 
 .navbar {
@@ -15,6 +16,8 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    overflow: auto;
+
 
     
 }
@@ -28,6 +31,7 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 50px;
+    
 }
 
 #imagemLogo {
@@ -57,6 +61,8 @@
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
+    overflow: hidden;
+
 }
 
 .fa-gem {
@@ -106,6 +112,8 @@
     border-radius: 4px;
     background: #f77062;
     color: #fff;
+    overflow: hidden;
+
 }
 
 .button:hover {
@@ -127,6 +135,8 @@
         width: 100%;
         max-width: 1300px;
         padding: 0;
+        overflow: hidden;
+
     }
 
     .navbar__menu {
@@ -142,6 +152,8 @@
         height: 50wh;
         z-index: -1;
         background: #131313;
+        overflow: hidden;
+
     }
 
     .navbar__menu.active {
@@ -218,6 +230,8 @@
 /* Hero Section */
 .main {
     background-color: #141414;
+    overflow: hidden;
+
 }
 
 .main__container {
@@ -315,6 +329,7 @@
     width: 80%;
     height: 80%;
     object-fit: cover;
+    z-index: 1;
 }
 
 /* Mobile */
@@ -416,6 +431,7 @@
     color: #fff;
 
 
+
 }
 
 .services__card:nth-child(2){
@@ -490,14 +506,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height: auto;
         color : #fff;
         border-top: 4rem;
+        overflow: auto;
+        border-left: 4rem;
     }
 
     .relatos  .wrapper {
         width: min(112rem, 100%);
         display: grid;
+        overflow: auto;
       }
 
     .services {
@@ -536,6 +555,12 @@
 
  .relatos header h2 {
     margin-bottom: 6rem;
+    font-size: 2.5rem;
+  }
+
+  .relatos header h4 {
+    font-size: 1.5rem;
+    color: #ff8177;
   }
   
   .relatos .cards {
@@ -615,6 +640,7 @@
     color : #fff;
     border-top: 8rem;
     padding-top: 7rem;
+    overflow: scroll;
 } 
 
 .wrapper .col-a {
@@ -643,6 +669,8 @@
     gap: 4rem;
     padding: 0 2rem;
     padding-top: 3rem;
+    overflow: auto;
+    z-index: 1;
 }
   
  .wrapper .col-b {
@@ -662,12 +690,26 @@
 /* Footer Css */
 .footer__container  {
     background-color: #141414;
-    padding : 5rem 0;
+    padding : 22rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
+
+.footer__container2  {
+    background-color: #141414;
+    padding : 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+
 
 #footer__logo {
     color : #fff;
