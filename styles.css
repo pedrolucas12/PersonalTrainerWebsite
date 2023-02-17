@@ -35,21 +35,22 @@
 }
 
 #imagemLogo {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     display: flex;
     margin-right: 0.5rem;
-    border-top: 14rem;
+    border-top: 18rem;
     margin-Top: 1rem;
     margin-left: 0.5rem;
+    padding-top: 0.8rem;
         
 }
 
 
 #navbar__logo {
     color: #ff8177;
-    background-image: linear-gradient(to top, #ff8844 0%, #ffb1);
+    background-image: linear-gradient(to top, #ff8844 0%, rgba(158, 117, 5, 0.067));
     background-size: 100% ;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -59,10 +60,12 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     overflow: hidden;
-
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    padding-top: 0.8rem;
 }
 
 .fa-gem {
@@ -240,16 +243,16 @@
     justify-content: center;
     align-items: center;
     margin : 0 auto;
-    height: 90vh;
+    height: 120vh;
     background-color: #141414;
     width: 100%;
     z-index: 1;
-    max-width: 1300px;
+    max-width: 100rem;
     padding: 0 50px;
 }
 
 .main__content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff8844 0%, #ffb199 100%);
     background-size: 100%;
@@ -257,11 +260,19 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moxz-text-fill-color: transparent;
-
+    max-width: 50rem;    
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-left: 5rem;
 }
 
+
+
+
+
 .main__content h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
@@ -269,6 +280,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moxz-text-fill-color: transparent;
+    margin-left: 5rem;
+
 }
 
 .main__content p {
@@ -277,6 +290,8 @@
     margin-bottom: 2rem;
     font-weight: 700;
     color : #fff;
+    margin-left: 5rem;
+
 }
 
 .main__btn {
@@ -351,18 +366,18 @@
     }
 
     .main__content h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top : 2rem;
     }
 
 
     .main__content h2 {
-        font-size: 3rem;
+        font-size: 1.6rem;
     }
 
     .main__content p {
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
 
@@ -371,16 +386,16 @@
 
 @media screen and (max-width: 480px){
     .main__content h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top : 3rem;
     }
 
     .main__content h2 {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .main__content p {
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-size: 1.5rem;
     }
 
@@ -518,6 +533,7 @@
         width: min(112rem, 100%);
         display: grid;
         overflow: auto;
+        padding-left: 2rem ;
       }
 
     .services {
@@ -542,6 +558,7 @@
         display: grid;
         width: 60rem;
         height: 30rem;
+        padding-left: 12rem;
       }
 
     .content .card {
@@ -676,6 +693,8 @@
     width: 100vh;
     border-top: 6rem;
     font-size: 1.6rem;
+    padding-left: 1rem
+
 }
 
 .col-a h2 {
@@ -707,7 +726,6 @@
     height: 60vh;
     width: 60vh;
     border-top: 5rem;
-
  }
 
 
